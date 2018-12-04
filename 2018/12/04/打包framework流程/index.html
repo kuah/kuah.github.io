@@ -64,7 +64,7 @@
 
 
 
-  <meta name="keywords" content="OCR,图像转文字," />
+  <meta name="keywords" content="随笔," />
 
 
 
@@ -77,20 +77,27 @@
 
 
 
-<meta name="description" content="DescriptionTesseract 是目前github上开源的OCR库最多star的一个库，他支持多平台。  本文主要讲述测评与具体应用">
-<meta name="keywords" content="OCR,图像转文字">
+<meta name="description" content="创建framework工程    创建封装的文件，这时候，你想pod也好，怎么都好，然后设置`build settings   将开放的.h文件添加到 Target -&amp;gt; Build Phases -&amp;gt; Headers -&amp;gt; Public,要注意的是，开放的.h文件引用到的，都需要一样public。   设置你的deployment target，当然尽可能低，不过还是得结合你">
+<meta name="keywords" content="随笔">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Tesseract的iOS应用与测评">
-<meta property="og:url" content="https://http://kuah.top/2018/01/04/Tesseract的iOS应用与测评/index.html">
+<meta property="og:title" content="打包framework流程">
+<meta property="og:url" content="https://http://kuah.top/2018/12/04/打包framework流程/index.html">
 <meta property="og:site_name" content="Kuah&#39;s Den">
-<meta property="og:description" content="DescriptionTesseract 是目前github上开源的OCR库最多star的一个库，他支持多平台。  本文主要讲述测评与具体应用">
+<meta property="og:description" content="创建framework工程    创建封装的文件，这时候，你想pod也好，怎么都好，然后设置`build settings   将开放的.h文件添加到 Target -&amp;gt; Build Phases -&amp;gt; Headers -&amp;gt; Public,要注意的是，开放的.h文件引用到的，都需要一样public。   设置你的deployment target，当然尽可能低，不过还是得结合你">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/2170902-4792854594fe9395.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
-<meta property="og:updated_time" content="2018-01-05T01:52:48.935Z">
+<meta property="og:image" content="https://ws4.sinaimg.cn/large/006tNbRwgy1fxux56my0fj314k0t8qar.jpg">
+<meta property="og:image" content="https://ws3.sinaimg.cn/large/006tNbRwgy1fxux4vajduj30z30u0dn2.jpg">
+<meta property="og:image" content="https://ws3.sinaimg.cn/large/006tNbRwgy1fxux1j21ftj312a0u078z.jpg">
+<meta property="og:image" content="https://ws1.sinaimg.cn/large/006tNbRwgy1fxuwuusafrj30x80g4wht.jpg">
+<meta property="og:image" content="https://ws2.sinaimg.cn/large/006tNbRwgy1fxuwukvo9qj30wu06sadn.jpg">
+<meta property="og:image" content="https://ws2.sinaimg.cn/large/006tNbRwgy1fxux9084ljj31gi09kjum.jpg">
+<meta property="og:image" content="https://ws4.sinaimg.cn/large/006tNbRwgy1fxuxasxrxsj314o0jcthw.jpg">
+<meta property="og:image" content="https://ws4.sinaimg.cn/large/006tNbRwgy1fxuxd6zrdaj30n40ac0u7.jpg">
+<meta property="og:updated_time" content="2018-12-04T11:15:51.079Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Tesseract的iOS应用与测评">
-<meta name="twitter:description" content="DescriptionTesseract 是目前github上开源的OCR库最多star的一个库，他支持多平台。  本文主要讲述测评与具体应用">
-<meta name="twitter:image" content="http://upload-images.jianshu.io/upload_images/2170902-4792854594fe9395.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta name="twitter:title" content="打包framework流程">
+<meta name="twitter:description" content="创建framework工程    创建封装的文件，这时候，你想pod也好，怎么都好，然后设置`build settings   将开放的.h文件添加到 Target -&amp;gt; Build Phases -&amp;gt; Headers -&amp;gt; Public,要注意的是，开放的.h文件引用到的，都需要一样public。   设置你的deployment target，当然尽可能低，不过还是得结合你">
+<meta name="twitter:image" content="https://ws4.sinaimg.cn/large/006tNbRwgy1fxux56my0fj314k0t8qar.jpg">
 
 
 
@@ -120,13 +127,13 @@
 
 
 
-  <link rel="canonical" href="https://http://kuah.top/2018/01/04/Tesseract的iOS应用与测评/"/>
+  <link rel="canonical" href="https://http://kuah.top/2018/12/04/打包framework流程/"/>
 
 
 
 
 
-  <title>Tesseract的iOS应用与测评 | Kuah's Den</title>
+  <title>打包framework流程 | Kuah's Den</title>
   
 
 
@@ -263,7 +270,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://http://kuah.top/2018/01/04/Tesseract的iOS应用与测评/">
+    <link itemprop="mainEntityOfPage" href="https://http://kuah.top/2018/12/04/打包framework流程/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Kuah">
@@ -280,7 +287,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Tesseract的iOS应用与测评</h1>
+          <h1 class="post-title" itemprop="name headline">打包framework流程</h1>
         
 
         <div class="post-meta">
@@ -292,8 +299,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-01-04T09:29:06+08:00">
-                2018-01-04
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-12-04T19:14:53+08:00">
+                2018-12-04
               </time>
             
 
@@ -303,6 +310,39 @@
           </span>
 
           
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/随笔/" itemprop="url" rel="index">
+                    <span itemprop="name">随笔</span>
+                  </a>
+                </span>
+
+                
+                
+                  ， 
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/随笔/iOS/" itemprop="url" rel="index">
+                    <span itemprop="name">iOS</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
 
           
             
@@ -311,9 +351,9 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/2018/01/04/Tesseract的iOS应用与测评/#comments" itemprop="discussionUrl">
+                <a href="/2018/12/04/打包framework流程/#comments" itemprop="discussionUrl">
                   <span class="post-comments-count disqus-comment-count"
-                        data-disqus-identifier="2018/01/04/Tesseract的iOS应用与测评/" itemprop="commentCount"></span>
+                        data-disqus-identifier="2018/12/04/打包framework流程/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -340,7 +380,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  358字
+                  377字
                 </span>
               
 
@@ -356,7 +396,7 @@
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  1分钟
+                  2分钟
                 </span>
               
             </div>
@@ -377,38 +417,50 @@
       
 
       
-        <h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p><a href="https://github.com/tesseract-ocr/tesseract" target="_blank" rel="noopener">Tesseract</a> 是目前<code>github</code>上开源的OCR库最多<code>star</code>的一个库，他支持多平台。</p>
-<blockquote>
-<p>本文主要讲述测评与具体应用</p>
-</blockquote>
-<a id="more"></a>
-<ul>
-<li>测评结果</li>
-</ul>
-<blockquote>
-<p>然经过测评，该库达不到我心里的祈愿，几乎只能识别比较大的黑体字，而且，就算是黑体字也会识别出错。说白了，就是训练集里面训练量太少，训练量越多（如中文汉字都几百种字体），识别越准确。如果要用到ocr，则可以</p>
-<ul>
-<li>购买训练集（格式这个要对上，而且收集麻烦）</li>
-</ul>
-<ul>
-<li>用市面上付费的，百度<code>ocr</code>一大堆</li>
-</ul>
-</blockquote>
-<p>点击下面阅读全文查看<code>使用方法</code></p>
-<h2 id="Install"><a href="#Install" class="headerlink" title="Install"></a>Install</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">platform:ios, &apos;8.0&apos;</span><br><span class="line">target &apos;OCRTest&apos; do</span><br><span class="line">pod &apos;TesseractOCRiOS&apos;</span><br><span class="line">end</span><br></pre></td></tr></table></figure>
-<h2 id="Usage"><a href="#Usage" class="headerlink" title="Usage"></a>Usage</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">- (void)tesseractRecogniceWithImage:(UIImage *)image compleate:(void(^)(NSString *text))compleate &#123;</span><br><span class="line">        G8Tesseract *tesseract = [[G8Tesseract alloc]initWithLanguage:@&quot;eng&quot;];</span><br><span class="line">        //模式</span><br><span class="line">        tesseract.engineMode = G8OCREngineModeTesseractOnly;</span><br><span class="line">        tesseract.maximumRecognitionTime = 10;</span><br><span class="line">        tesseract.pageSegmentationMode = G8PageSegmentationModeAuto;</span><br><span class="line">        tesseract.image = [image g8_blackAndWhite];</span><br><span class="line">    </span><br><span class="line">        [tesseract recognize];</span><br><span class="line">        compleate(tesseract.recognizedText);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<ul>
-<li><p>其中<code>eng</code>为语种训练集,使用的训练集需要提前导入:<br>1.项目中新建文件夹：<code>tessdata</code>    （用于装载语种训练集）</p>
-<p>2.将训练集放在该目录下</p>
-<p>3.将文件夹以<code>folder</code>资源形式拖到项目中</p>
-<blockquote>
-<p><a href="https://github.com/tesseract-ocr/tessdata" target="_blank" rel="noopener">训练集下载地址</a>    注意分支，不同分支存放的训练集对应不同的版本</p>
-</blockquote>
-<p><img src="http://upload-images.jianshu.io/upload_images/2170902-4792854594fe9395.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
+        <ol>
+<li>创建framework工程</li>
+</ol>
+<p><img src="https://ws4.sinaimg.cn/large/006tNbRwgy1fxux56my0fj314k0t8qar.jpg" alt="image-20181204190516745"></p>
+<ol>
+<li><p>创建封装的文件，这时候，你想pod也好，怎么都好，然后设置<code>`build settings</code></p>
+<p><img src="https://ws3.sinaimg.cn/large/006tNbRwgy1fxux4vajduj30z30u0dn2.jpg" alt="image-20181204190458952"></p>
 </li>
-<li><p>可使用多训练集，只需要用下划线分开即可，如：<code>eng_chi_sim</code>（其中<code>chi_sim</code>为中文简体）</p>
+<li><p>将开放的.h文件添加到 <code>Target -&gt; Build Phases -&gt; Headers -&gt; Public</code>,要注意的是，开放的.h文件引用到的，都需要一样public。</p>
+<p><img src="https://ws3.sinaimg.cn/large/006tNbRwgy1fxux1j21ftj312a0u078z.jpg" alt="image-20181204190146335"></p>
 </li>
-</ul>
+<li><p>设置你的<code>deployment target</code>，当然尽可能低，不过还是得结合你引用的pod</p>
+</li>
+<li><p>设置<code>Architectures</code>，为其添加上缺爱的型号</p>
+<p><img src="https://ws1.sinaimg.cn/large/006tNbRwgy1fxuwuusafrj30x80g4wht.jpg" alt="img"></p>
+</li>
+<li><p>设置<code>Build Active Architecture Only</code>,<strong>注意</strong>：这里可以先不要设置，因为设置完之后再跑程序（也就是你在此之前没有跑过程序，模拟器及真机），会报错</p>
+</li>
+<li><p>最好就是：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">选中模拟器，编译程序</span><br><span class="line">选中测试机，编译程序</span><br><span class="line">在finder中找到framework文件</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<p>​      然后执行第6步，然后重复第7步</p>
+<p><img src="https://ws2.sinaimg.cn/large/006tNbRwgy1fxuwukvo9qj30wu06sadn.jpg" alt="image-20181204185502264"></p>
+<ol>
+<li>合并framework，由于单一的framework只能在对应的环境运行</li>
+</ol>
+<p><img src="https://ws2.sinaimg.cn/large/006tNbRwgy1fxux9084ljj31gi09kjum.jpg" alt="image-20181204190857016"></p>
+<p>备注：可以使用lipo命令查看framework支持的型号环境</p>
+<figure class="highlight kotlin"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">lipo -info #address#</span><br></pre></td></tr></table></figure>
+<ol>
+<li><p>以上都搞好之后</p>
+<p><img src="https://ws4.sinaimg.cn/large/006tNbRwgy1fxuxasxrxsj314o0jcthw.jpg" alt="image-20181204191040635"></p>
+</li>
+</ol>
+<p>​     copy以下脚本，编译</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">if [ "$&#123;ACTION&#125;" = "build" ]</span><br><span class="line">then</span><br><span class="line">INSTALL_DIR=$&#123;SRCROOT&#125;/Products/$&#123;PROJECT_NAME&#125;.framework</span><br><span class="line"></span><br><span class="line">DEVICE_DIR=$&#123;BUILD_ROOT&#125;/$&#123;CONFIGURATION&#125;-iphoneos/$&#123;PROJECT_NAME&#125;.framework</span><br><span class="line"></span><br><span class="line">SIMULATOR_DIR=$&#123;BUILD_ROOT&#125;/$&#123;CONFIGURATION&#125;-iphonesimulator/$&#123;PROJECT_NAME&#125;.framework</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">if [ -d "$&#123;INSTALL_DIR&#125;" ]</span><br><span class="line">then</span><br><span class="line">rm -rf "$&#123;INSTALL_DIR&#125;"</span><br><span class="line">fi</span><br><span class="line"></span><br><span class="line">mkdir -p "$&#123;INSTALL_DIR&#125;"</span><br><span class="line"></span><br><span class="line">cp -R "$&#123;DEVICE_DIR&#125;/" "$&#123;INSTALL_DIR&#125;/"</span><br><span class="line"><span class="meta">#</span>ditto "$&#123;DEVICE_DIR&#125;/Headers" "$&#123;INSTALL_DIR&#125;/Headers"</span><br><span class="line"></span><br><span class="line">lipo -create "$&#123;DEVICE_DIR&#125;/$&#123;PROJECT_NAME&#125;" "$&#123;SIMULATOR_DIR&#125;/$&#123;PROJECT_NAME&#125;" -output "$&#123;INSTALL_DIR&#125;/$&#123;PROJECT_NAME&#125;"</span><br><span class="line"></span><br><span class="line">open "$&#123;DEVICE_DIR&#125;"</span><br><span class="line">open "$&#123;SRCROOT&#125;/Products"</span><br><span class="line">fi</span><br></pre></td></tr></table></figure>
+<ol>
+<li><p>编译后会弹出窗口，就是我们想要的framework</p>
+<p><img src="https://ws4.sinaimg.cn/large/006tNbRwgy1fxuxd6zrdaj30n40ac0u7.jpg" alt="image-20181204191259150"></p>
+</li>
+<li><p>使用，直接拖到所需要的工程里面用</p>
+</li>
+</ol>
 
       
     </div>
@@ -426,9 +478,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/OCR/" rel="tag"># OCR</a>
-          
-            <a href="/tags/图像转文字/" rel="tag"># 图像转文字</a>
+            <a href="/tags/随笔/" rel="tag"># 随笔</a>
           
         </div>
       
@@ -441,8 +491,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2017/12/20/SCAdView/" rel="next" title="SCAdView">
-                <i class="fa fa-chevron-left"></i> SCAdView
+              <a href="/2018/09/12/关于Siri Shortcuts 你需要知道的/" rel="next" title="关于Siri Shortcuts 你需要知道的">
+                <i class="fa fa-chevron-left"></i> 关于Siri Shortcuts 你需要知道的
               </a>
             
           </div>
@@ -450,10 +500,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2018/05/08/DSBridge源码阅读/" rel="prev" title="DSBridge源码阅读">
-                DSBridge源码阅读 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -512,17 +558,8 @@
       
 
       
-        <ul class="sidebar-nav motion-element">
-          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
-            文章目录
-          </li>
-          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
-            站点概览
-          </li>
-        </ul>
-      
 
-      <section class="site-overview-wrap sidebar-panel">
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -609,22 +646,6 @@
         </div>
       </section>
 
-      
-      <!--noindex-->
-        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
-          <div class="post-toc">
-
-            
-              
-            
-
-            
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Description"><span class="nav-number">1.</span> <span class="nav-text"><a href="#Description" class="headerlink" title="Description"></a>Description</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Install"><span class="nav-number">2.</span> <span class="nav-text"><a href="#Install" class="headerlink" title="Install"></a>Install</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Usage"><span class="nav-number">3.</span> <span class="nav-text"><a href="#Usage" class="headerlink" title="Usage"></a>Usage</span></a></li></ol></div>
-            
-
-          </div>
-        </section>
-      <!--/noindex-->
       
 
       
@@ -777,9 +798,9 @@
     
       <script type="text/javascript">
         var disqus_config = function () {
-          this.page.url = 'https://http://kuah.top/2018/01/04/Tesseract的iOS应用与测评/';
-          this.page.identifier = '2018/01/04/Tesseract的iOS应用与测评/';
-          this.page.title = 'Tesseract的iOS应用与测评';
+          this.page.url = 'https://http://kuah.top/2018/12/04/打包framework流程/';
+          this.page.identifier = '2018/12/04/打包framework流程/';
+          this.page.title = '打包framework流程';
         };
         var d = document, s = d.createElement('script');
         s.src = 'https://kuah.disqus.com/embed.js';
