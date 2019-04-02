@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://http://kuah.top/"/>
-  <updated>2019-04-02T02:24:31.617Z</updated>
+  <updated>2019-04-02T03:22:10.545Z</updated>
   <id>https://http://kuah.top/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Right where I’m supposed to be</title>
+    <link href="https://http://kuah.top/2019/04/02/Right%20where%20I%E2%80%99m%20supposed%20to%20be/"/>
+    <id>https://http://kuah.top/2019/04/02/Right where I’m supposed to be/</id>
+    <published>2019-04-01T16:00:00.000Z</published>
+    <updated>2019-04-02T03:22:10.545Z</updated>
+    
+    <content type="html"><![CDATA[<p>敬请期待</p><a id="more"></a><h1 id="Right-where-I’m-supposed-to-be"><a href="#Right-where-I’m-supposed-to-be" class="headerlink" title="Right where I’m supposed to be"></a>Right where I’m supposed to be</h1><p><img src="https://ws1.sinaimg.cn/large/006tKfTcgy1g1o4eof655j314z0pah76.jpg" alt="图片 1"></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;敬请期待&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="旅游" scheme="https://http://kuah.top/categories/%E6%97%85%E6%B8%B8/"/>
+    
+      <category term="国外" scheme="https://http://kuah.top/categories/%E6%97%85%E6%B8%B8/%E5%9B%BD%E5%A4%96/"/>
+    
+      <category term="仙本那" scheme="https://http://kuah.top/categories/%E6%97%85%E6%B8%B8/%E5%9B%BD%E5%A4%96/%E4%BB%99%E6%9C%AC%E9%82%A3/"/>
+    
+    
+      <category term="仙本那" scheme="https://http://kuah.top/tags/%E4%BB%99%E6%9C%AC%E9%82%A3/"/>
+    
+  </entry>
   
   <entry>
     <title>打包framework流程</title>
@@ -132,30 +158,6 @@
     <summary type="html">
     
       &lt;p&gt;这是一款拥有3D特效和支持高效定制的无限轮播图&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="iOS" scheme="https://http://kuah.top/categories/iOS/"/>
-    
-      <category term="开源" scheme="https://http://kuah.top/categories/iOS/%E5%BC%80%E6%BA%90/"/>
-    
-    
-      <category term="轮播图组件" scheme="https://http://kuah.top/tags/%E8%BD%AE%E6%92%AD%E5%9B%BE%E7%BB%84%E4%BB%B6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>SCAdView</title>
-    <link href="https://http://kuah.top/2017/12/20/Right%20where%20I%E2%80%99m%20supposed%20to%20be/"/>
-    <id>https://http://kuah.top/2017/12/20/Right where I’m supposed to be/</id>
-    <published>2017-12-20T13:00:25.000Z</published>
-    <updated>2019-04-02T03:19:39.450Z</updated>
-    
-    <content type="html"><![CDATA[<p>敬请期待</p><a id="more"></a><h1 id="Right-where-I’m-supposed-to-be"><a href="#Right-where-I’m-supposed-to-be" class="headerlink" title="Right where I’m supposed to be"></a>Right where I’m supposed to be</h1><p><img src="https://ws1.sinaimg.cn/large/006tKfTcgy1g1o4eof655j314z0pah76.jpg" alt="图片 1"></p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;敬请期待&lt;/p&gt;
     
     </summary>
     
