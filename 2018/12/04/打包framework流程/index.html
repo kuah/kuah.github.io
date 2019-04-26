@@ -89,19 +89,19 @@
 <meta property="og:site_name" content="Kuah&#39;s Den">
 <meta property="og:description" content="本文介绍如何打包framework，及其注意事项">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="https://ws4.sinaimg.cn/large/006tNbRwgy1fxux56my0fj314k0t8qar.jpg">
-<meta property="og:image" content="https://ws3.sinaimg.cn/large/006tNbRwgy1fxux4vajduj30z30u0dn2.jpg">
-<meta property="og:image" content="https://ws3.sinaimg.cn/large/006tNbRwgy1fxux1j21ftj312a0u078z.jpg">
-<meta property="og:image" content="https://ws1.sinaimg.cn/large/006tNbRwgy1fxuwuusafrj30x80g4wht.jpg">
-<meta property="og:image" content="https://ws2.sinaimg.cn/large/006tNbRwgy1fxuwukvo9qj30wu06sadn.jpg">
-<meta property="og:image" content="https://ws2.sinaimg.cn/large/006tNbRwgy1fxux9084ljj31gi09kjum.jpg">
-<meta property="og:image" content="https://ws4.sinaimg.cn/large/006tNbRwgy1fxuxasxrxsj314o0jcthw.jpg">
-<meta property="og:image" content="https://ws4.sinaimg.cn/large/006tNbRwgy1fxuxd6zrdaj30n40ac0u7.jpg">
-<meta property="og:updated_time" content="2019-04-02T02:24:31.617Z">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/2170902-f2bc7132712a45d1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/2170902-7ecab29e8a282491.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/2170902-d3305375ff86815b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/2170902-903f3f30446ef022.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/2170902-d29bd91abad893ad.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/2170902-4d3fbb43d0669387.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/2170902-9506c776bdabd2ed.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/2170902-126cefabba7f2e39.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:updated_time" content="2019-04-26T03:20:17.592Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="打包framework流程">
 <meta name="twitter:description" content="本文介绍如何打包framework，及其注意事项">
-<meta name="twitter:image" content="https://ws4.sinaimg.cn/large/006tNbRwgy1fxux56my0fj314k0t8qar.jpg">
+<meta name="twitter:image" content="https://upload-images.jianshu.io/upload_images/2170902-f2bc7132712a45d1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
 
 
 
@@ -427,18 +427,18 @@
 <ol>
 <li>创建framework工程</li>
 </ol>
-<p><img src="https://ws4.sinaimg.cn/large/006tNbRwgy1fxux56my0fj314k0t8qar.jpg" alt="image-20181204190516745"></p>
+<p><img src="https://upload-images.jianshu.io/upload_images/2170902-f2bc7132712a45d1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image-20181204190516745"></p>
 <ol start="2">
 <li><p>创建封装的文件，这时候，你想pod也好，怎么都好，然后设置<code></code>build settings`</p>
-<p><img src="https://ws3.sinaimg.cn/large/006tNbRwgy1fxux4vajduj30z30u0dn2.jpg" alt="image-20181204190458952"></p>
+<p><img src="https://upload-images.jianshu.io/upload_images/2170902-7ecab29e8a282491.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image-20181204190458952"></p>
 </li>
 <li><p>将开放的.h文件添加到 <code>Target -&gt; Build Phases -&gt; Headers -&gt; Public</code>,要注意的是，开放的.h文件引用到的，都需要一样public。</p>
-<p><img src="https://ws3.sinaimg.cn/large/006tNbRwgy1fxux1j21ftj312a0u078z.jpg" alt="image-20181204190146335"></p>
+<p><img src="https://upload-images.jianshu.io/upload_images/2170902-d3305375ff86815b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image-20181204190146335"></p>
 </li>
 <li><p>设置你的<code>deployment target</code>，当然尽可能低，不过还是得结合你引用的pod</p>
 </li>
 <li><p>设置<code>Architectures</code>，为其添加上缺爱的型号</p>
-<p><img src="https://ws1.sinaimg.cn/large/006tNbRwgy1fxuwuusafrj30x80g4wht.jpg" alt="img"></p>
+<p><img src="https://upload-images.jianshu.io/upload_images/2170902-903f3f30446ef022.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="img"></p>
 </li>
 <li><p>设置<code>Build Active Architecture Only</code>,<strong>注意</strong>：这里可以先不要设置，因为设置完之后再跑程序（也就是你在此之前没有跑过程序，模拟器及真机），会报错</p>
 </li>
@@ -447,23 +447,23 @@
 </li>
 </ol>
 <p>​      然后执行第6步，然后重复第7步</p>
-<p><img src="https://ws2.sinaimg.cn/large/006tNbRwgy1fxuwukvo9qj30wu06sadn.jpg" alt="image-20181204185502264"></p>
+<p><img src="https://upload-images.jianshu.io/upload_images/2170902-d29bd91abad893ad.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image-20181204185502264"></p>
 <ol start="8">
 <li>合并framework，由于单一的framework只能在对应的环境运行</li>
 </ol>
-<p><img src="https://ws2.sinaimg.cn/large/006tNbRwgy1fxux9084ljj31gi09kjum.jpg" alt="image-20181204190857016"></p>
+<p><img src="https://upload-images.jianshu.io/upload_images/2170902-4d3fbb43d0669387.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image-20181204190857016"></p>
 <p>备注：可以使用lipo命令查看framework支持的型号环境</p>
 <figure class="highlight kotlin"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">lipo -info #address#</span><br></pre></td></tr></table></figure>
 <ol start="9">
 <li><p>以上都搞好之后</p>
-<p><img src="https://ws4.sinaimg.cn/large/006tNbRwgy1fxuxasxrxsj314o0jcthw.jpg" alt="image-20181204191040635"></p>
+<p><img src="https://upload-images.jianshu.io/upload_images/2170902-9506c776bdabd2ed.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image-20181204191040635"></p>
 </li>
 </ol>
 <p>​     copy以下脚本，编译</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">if [ "$&#123;ACTION&#125;" = "build" ]</span><br><span class="line">then</span><br><span class="line">INSTALL_DIR=$&#123;SRCROOT&#125;/Products/$&#123;PROJECT_NAME&#125;.framework</span><br><span class="line"></span><br><span class="line">DEVICE_DIR=$&#123;BUILD_ROOT&#125;/$&#123;CONFIGURATION&#125;-iphoneos/$&#123;PROJECT_NAME&#125;.framework</span><br><span class="line"></span><br><span class="line">SIMULATOR_DIR=$&#123;BUILD_ROOT&#125;/$&#123;CONFIGURATION&#125;-iphonesimulator/$&#123;PROJECT_NAME&#125;.framework</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">if [ -d "$&#123;INSTALL_DIR&#125;" ]</span><br><span class="line">then</span><br><span class="line">rm -rf "$&#123;INSTALL_DIR&#125;"</span><br><span class="line">fi</span><br><span class="line"></span><br><span class="line">mkdir -p "$&#123;INSTALL_DIR&#125;"</span><br><span class="line"></span><br><span class="line">cp -R "$&#123;DEVICE_DIR&#125;/" "$&#123;INSTALL_DIR&#125;/"</span><br><span class="line"><span class="meta">#</span><span class="bash">ditto <span class="string">"<span class="variable">$&#123;DEVICE_DIR&#125;</span>/Headers"</span> <span class="string">"<span class="variable">$&#123;INSTALL_DIR&#125;</span>/Headers"</span></span></span><br><span class="line"></span><br><span class="line">lipo -create "$&#123;DEVICE_DIR&#125;/$&#123;PROJECT_NAME&#125;" "$&#123;SIMULATOR_DIR&#125;/$&#123;PROJECT_NAME&#125;" -output "$&#123;INSTALL_DIR&#125;/$&#123;PROJECT_NAME&#125;"</span><br><span class="line"></span><br><span class="line">open "$&#123;DEVICE_DIR&#125;"</span><br><span class="line">open "$&#123;SRCROOT&#125;/Products"</span><br><span class="line">fi</span><br></pre></td></tr></table></figure>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">if [ "$&#123;ACTION&#125;" = "build" ]</span><br><span class="line">then</span><br><span class="line">INSTALL_DIR=$&#123;SRCROOT&#125;/Products/$&#123;PROJECT_NAME&#125;.framework</span><br><span class="line"></span><br><span class="line">DEVICE_DIR=$&#123;BUILD_ROOT&#125;/$&#123;CONFIGURATION&#125;-iphoneos/$&#123;PROJECT_NAME&#125;.framework</span><br><span class="line"></span><br><span class="line">SIMULATOR_DIR=$&#123;BUILD_ROOT&#125;/$&#123;CONFIGURATION&#125;-iphonesimulator/$&#123;PROJECT_NAME&#125;.framework</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">if [ -d "$&#123;INSTALL_DIR&#125;" ]</span><br><span class="line">then</span><br><span class="line">rm -rf "$&#123;INSTALL_DIR&#125;"</span><br><span class="line">fi</span><br><span class="line"></span><br><span class="line">mkdir -p "$&#123;INSTALL_DIR&#125;"</span><br><span class="line"></span><br><span class="line">cp -R "$&#123;DEVICE_DIR&#125;/" "$&#123;INSTALL_DIR&#125;/"</span><br><span class="line"><span class="meta">#</span>ditto "$&#123;DEVICE_DIR&#125;/Headers" "$&#123;INSTALL_DIR&#125;/Headers"</span><br><span class="line"></span><br><span class="line">lipo -create "$&#123;DEVICE_DIR&#125;/$&#123;PROJECT_NAME&#125;" "$&#123;SIMULATOR_DIR&#125;/$&#123;PROJECT_NAME&#125;" -output "$&#123;INSTALL_DIR&#125;/$&#123;PROJECT_NAME&#125;"</span><br><span class="line"></span><br><span class="line">open "$&#123;DEVICE_DIR&#125;"</span><br><span class="line">open "$&#123;SRCROOT&#125;/Products"</span><br><span class="line">fi</span><br></pre></td></tr></table></figure>
 <ol start="10">
 <li><p>编译后会弹出窗口，就是我们想要的framework</p>
-<p><img src="https://ws4.sinaimg.cn/large/006tNbRwgy1fxuxd6zrdaj30n40ac0u7.jpg" alt="image-20181204191259150"></p>
+<p><img src="https://upload-images.jianshu.io/upload_images/2170902-126cefabba7f2e39.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image-20181204191259150"></p>
 </li>
 <li><p>使用，直接拖到所需要的工程里面用</p>
 </li>
@@ -498,8 +498,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2018/12/04/thinner-git-sh/" rel="next" title="打包framework流程">
-                <i class="fa fa-chevron-left"></i> 打包framework流程
+              <a href="/2018/09/12/关于Siri Shortcuts 你需要知道的/" rel="next" title="关于Siri Shortcuts 你需要知道的">
+                <i class="fa fa-chevron-left"></i> 关于Siri Shortcuts 你需要知道的
               </a>
             
           </div>
@@ -508,8 +508,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2019/04/02/Right where I’m supposed to be/" rel="prev" title="Right where I’m supposed to be">
-                Right where I’m supposed to be <i class="fa fa-chevron-right"></i>
+              <a href="/2019/04/26/thinner-git-sh/" rel="prev" title="thinner-git-sh使用文档">
+                thinner-git-sh使用文档 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -583,7 +583,7 @@
               
                 <a href="/archives">
               
-                  <span class="site-state-item-count">7</span>
+                  <span class="site-state-item-count">6</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
